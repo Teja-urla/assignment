@@ -1,0 +1,133 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+%\RequirePackage{amsmath}
+\documentclass[12pt,twocolumn]{article}
+%
+% \usepackage{setspace}
+ \usepackage{gensymb}
+%\doublespacing
+ \usepackage{polynom}
+%\singlespacing
+%\usepackage{silence}
+%Disable all warnings issued by latex starting with "You have..."
+%\usepackage{graphicx}
+\usepackage{amssymb}
+%\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+\usepackage{amsthm}
+%\usepackage{pifont}
+%\usepackage{iithtlc}
+% \usepackage{mathrsfs}
+% \usepackage{txfonts}
+ \usepackage{stfloats}
+% \usepackage{steinmetz}
+ \usepackage{bm}
+% \usepackage{cite}
+% \usepackage{cases}
+% \usepackage{subfig}
+%\usepackage{xtab}
+\usepackage{longtable}
+%\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+ \usepackage{mathtools}
+ \usepackage{tikz}
+% \usepackage{circuitikz}
+% \usepackage{verbatim}
+%\usepackage{tfrupee}
+\usepackage[breaklinks=true]{hyperref}
+%\usepackage{stmaryrd}
+%\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+%\usetkzobj{all}
+\usepackage{listings}
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+% \usepackage{multicol}
+% \usepackage{chngcntr}
+%\usepackage{enumerate}
+
+%\usepackage{wasysym}
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+\DeclareMathOperator*{\equals}{=}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+% correct bad hyphenation here
+\def\inputGnumericTable{}                                 %%
+
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+%\lstset{
+%language=tex,
+%frame=single, 
+%breaklines=true
+%}
+
+	\begin{document}
+
+\LARGE Q) A man invests Rs.4500 in shares of company which is paying 7.5\% dividend.If 
+Rs.100 shares are available for discount 10\%
+
+Find:
+
+1)number of shares he purchased.
+
+2)his annual income.
+
+Ans:Given,
+
+Investment = Rs.4500
+
+Dividend = 7.5 \%
+
+share = Rs . 100
+
+final amount(fv) = 100- 10\% of 100
+
+= 100 -10
+
+=Rs . 90
+
+\begin{center}
+\begin{tabular}{|c|} 
+ \hline
+ & number of shares = $ \frac{investment}{final amount}$&
+ \hline
+ 
+\end{tabular}
+\end{center}
+
+number of shares = &$\frac{4500}{90}$& = 50
+
+since,
+\begin{center}
+\begin{tabular}{|c|} 
+ \hline
+ & annual income = $ \frac{no:\times dividend\times fv}{100}$&
+ \hline
+ 
+\end{tabular}
+\end{center}
+
+ so annual income=50$\times$ 7.5=Rs.375.
+\end{document}
